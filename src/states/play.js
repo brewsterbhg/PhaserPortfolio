@@ -19,7 +19,7 @@ class Play extends Phaser.State {
         this.spaceKey = this.game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
         
         // Set game bounds
-        this.game.world.setBounds(0, 0, 1400, 1400);
+        this.game.world.setBounds(0, 0, 14000, 1400);
         
         // Set background color
         this.game.stage.backgroundColor = "#000";
